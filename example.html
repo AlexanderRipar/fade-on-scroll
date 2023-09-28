@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="./fade-on-scroll.js" defer></script>
+		<link href="./fade-on-scroll.css" rel="stylesheet">
+		<style>
+			div {
+					height: 400px;
+					width: 200px;
+					margin: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div style="background-color: grey;">
+		</div>
+		<div style="background-color: grey;">
+		</div>
+		<div class="fade-on-scroll" style="background-color: orangered;">
+			If this is not fading in when scrolled into view, you might want to double-check that you do not have <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion">prefers-reduced-motion</a> enabled. 
+		</div>
+		<div style="background-color: grey;">
+		</div>
+		<div style="background-color: grey;">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.fade-on-scroll {
+	opacity: 0;
+	transform: translateY(20vh);
+	transition: opacity 0.9s ease-out, transform 1.2s ease-out;
+}
+.fade-on-scroll.on-screen {
+	opacity: 1;
+	transform: none;
+}
